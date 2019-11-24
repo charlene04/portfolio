@@ -163,7 +163,10 @@ hr.sep::after{
       height: 70vh;
   }
   div.banner-text{
-    height: 30vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    height: 500px;
       
   }
   div.banner-text h1, div.banner-text p{
