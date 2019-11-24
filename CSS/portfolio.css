@@ -121,6 +121,9 @@ hr.sep::after{
   div.banner-text h1{
       font-size: 30px;
   }
+  div.banner-text{
+    padding: 30px 10px;
+}
 
   #subtext{
     font-size: 18px;
@@ -132,6 +135,6 @@ hr.sep::after{
       height: 70vh;
   }
   div.banner-text{
-    height: min-content;
+    height: 25%;
 }
 }
