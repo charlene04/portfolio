@@ -131,6 +131,10 @@ hr.sep::after{
   }
 }
 @media only screen and (max-width: 527px) {
+  div.banner-text{
+    min-height: 30%;
+      
+  }
   div.banner-text h1{
       font-size: 32px;
   }
@@ -158,7 +162,7 @@ hr.sep::after{
   section.banner{
       height: 70vh;
   }
-  div.banner-text{
+  div.banner-text h1, div.banner-text p{
     display: flex;
     justify-content: center;
     vertical-align: middle;
