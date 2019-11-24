@@ -112,6 +112,19 @@ hr.sep::after{
         padding: 0 120px;
     }
 }
+@media only screen and (max-width: 1130px){
+  div.banner-text{
+    min-height: 40%;
+    padding-bottom: 0;
+      
+  }
+}
+@media only screen and (max-width: 1002px){
+  div.banner-text{
+    min-height: 50%;
+      
+  }
+}
 @media only screen and (max-height: 460px), (max-width: 460px) {
   div.banner-text{
       margin-top: 10vh;
@@ -135,7 +148,8 @@ hr.sep::after{
 }
 @media only screen and (max-width: 569px) {
   div.banner-text{
-    padding: 30px 10px;
+    padding-right:10px;
+    padding-left:10px;
   }
 }
 
