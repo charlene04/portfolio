@@ -134,7 +134,4 @@ hr.sep::after{
   section.banner{
       height: 70vh;
   }
-  div.banner-text{
-    height: 25%;
-}
 }
