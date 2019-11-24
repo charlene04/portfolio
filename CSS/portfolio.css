@@ -154,8 +154,13 @@ hr.sep::after{
 }
 
 
-@media only screen and (max-width: 400px) and (min-height: 500px) {
+@media only screen and (max-width: 400px) and (min-height: 700px) {
   section.banner{
       height: 70vh;
+  }
+  div.banner-text{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
   }
 }
