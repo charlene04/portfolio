@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500|Raleway:500i&display=swap");
-
+*{
+  box-sizing: border-box;
+}
 html,
 body {
     font-size: 0.9rem;
@@ -29,7 +31,7 @@ nav{
     color: #e6effb;
   }
   .navbar-brand{
-    background-color: #f00;
+    background-color: #ff0000c7;
     color: #fff;
   }
 
@@ -110,8 +112,17 @@ hr.sep::after{
         padding: 0 120px;
     }
 }
-@media only screen and (max-height: 460px){
+@media only screen and (max-height: 460px), (max-width: 460px) {
   div.banner-text{
       margin-top: 10vh;
+  }
+}
+@media only screen and (max-width: 460px) {
+  div.banner-text h1{
+      font-size: 30px;
+  }
+
+  #subtext{
+    font-size: 18px;
   }
 }
