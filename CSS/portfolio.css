@@ -47,13 +47,16 @@ nav{
   }
 
   div.banner-text{
-    color: #f5cc10;
-      margin-top: 25vh;
+    min-height: 30px;
+    padding: 30px 30px;
+    background-color: #00000075 ;
+    color: #fff;
+      margin-top: 23vh;
       text-align: center;
       
   }
   div.banner-text h1{
-    font-size: 50px;
+    font-size: 45px;
   }
   #subtext {
 	display: inline-block;
@@ -94,7 +97,7 @@ hr.sep::after{
 		background-color: transparent 
 	}
 	50% { 
-		background-color: #f5cc10; 
+		background-color: #fff; 
 	}
 }
 
@@ -106,4 +109,9 @@ hr.sep::after{
     body{
         padding: 0 120px;
     }
+}
+@media only screen and (max-height: 460px){
+  div.banner-text{
+      margin-top: 10vh;
+  }
 }
