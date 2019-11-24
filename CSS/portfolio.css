@@ -162,6 +162,10 @@ hr.sep::after{
   section.banner{
       height: 70vh;
   }
+  div.banner-text{
+    height: 30vh;
+      
+  }
   div.banner-text h1, div.banner-text p{
     display: flex;
     justify-content: center;
