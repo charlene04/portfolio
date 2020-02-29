@@ -1,4 +1,11 @@
-// List of sentences
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    rtl: true
+  });
+});
+
+/*// List of sentences
 var _CONTENT = [ 
 	"Search no more. You are just at the right place!"
 ];
@@ -11,6 +18,7 @@ var _PART_INDEX = 0;
 
 // Holds the handle returned from setInterval
 var _INTERVAL_VAL;
+
 
 // Element that holds the text
 var _ELEMENT = document.querySelector("#subtext");
@@ -64,3 +72,15 @@ function Delete() {
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+
+*/
+
+
+function toggle(){
+	document.getElementById("aside").classList.toggle("display");
+}
+
+$(".nav1").on("click", function(){
+	document.getElementById("aside").classList.add("display");
+});
+
