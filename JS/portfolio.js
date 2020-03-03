@@ -1,9 +1,4 @@
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    rtl: true
-  });
-});
+
 
 /*// List of sentences
 var _CONTENT = [ 
