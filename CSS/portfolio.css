@@ -606,8 +606,10 @@ a {
     border-radius: 50%;
 }
 .author-img {
+    background-image: url("https://res.cloudinary.com/charlene04/image/upload/v1567491197/B67I7267-Edit_dmu62i.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
     position: relative;
 }
 
