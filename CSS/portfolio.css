@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     float: left;
     clear: both;
-    background-image: url("https://res.cloudinary.com/charlene04/image/upload/v1570829004/premium-mobile-phone-screen-mockup-template_53876-76515_1_uku5fl.png");
+    background-attachment: fixed;
+    background-image: url(../IMG/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +136,7 @@ p {
 }
  
 .slider-text-inner .btn.btn-learn {
-    color: #000;
+    color: #fff;
     border: 1px solid #000;
     background: transparent !important;
 }
@@ -180,7 +181,7 @@ p {
  .slider-text-inner h1,  .slider-text-inner h2 {
     margin: 0;
     padding: 0;
-    color: black;
+    color: #ffffff;
     font-family: "Playfair Display", Georgia, serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -837,3 +838,6 @@ section#aside{
     overflow: scroll; 
 }
 
+i.fa.fa-align-justify.ml-3::before{
+    color: white;
+}
