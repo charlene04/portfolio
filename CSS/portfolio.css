@@ -208,7 +208,11 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 /*=========================================================================*/
 .colorlib-testimonials {
-    height: 300px;
+    height: 400px;
+}
+
+.modal-info {
+    margin-top: 10px;
 }
 
 .colorlib-experience, .colorlib-skills, .colorlib-work, .colorlib-about, .colorlib-testimonials, .colorlib-contact {
@@ -553,12 +557,16 @@ a {
     float: left;
     width: 300px;
     position: fixed;
-    overflow-y: hidden;
+    overflow: hidden;
     z-index: 1001;
-    background: #f2f3f7;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    background-image: url(../IMG/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f3f7;
 }
 @media screen and (max-width: 768px){
   #colorlib-aside {
@@ -809,13 +817,21 @@ section#aside{
     top: 0;
     left: 0;
     position: fixed;
-    overflow: scroll; 
+    overflow: scroll;
+    background-image: url(../IMG/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f3f7;
 }
 
 i.fa.fa-align-justify.ml-3::before{
     color: white;
 }
 
+#navbar a, #navbar2 a {
+    color: #000000!important;
+}
 
 
 /*======================CAROUSEL================================*/
