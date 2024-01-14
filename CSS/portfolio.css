@@ -23,6 +23,7 @@ body {
 @media screen and (max-width: 992px){
   body {
     font-size: 16px;
+    text-align: justify;
   }
 }
 h1, h2, h3, h4, h5, h6 {
@@ -46,25 +47,24 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     float: left;
     clear: both;
-    background-attachment: fixed;
-    background-image: url(../IMG/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    background-image: url(../IMG/alexandru-acea--WBYxmW4yuw-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 @media screen and (max-width: 768px){
     #colorlib-main {
-      width: 100%;
+        width: 100%;
+    }
+    .colorlib-skills, .colorlib-about, .colorlib-contact, .colorlib-experience, .colorlib-testimonials  {
       padding: 0 1em;
-  }
+    }
   
   }
   @media screen and (min-height: 750px){
     #colorlib-hero {
-     min-height:650px ;
-
-  }
-  
+     min-height:600px;
+    }
   }
 
 
@@ -137,7 +137,7 @@ p {
  
 .slider-text-inner .btn.btn-learn {
     color: #fff;
-    border: 1px solid #000;
+    border: 1px solid #ffffff7d;
     background: transparent !important;
 }
  .slider-text-inner .btn {
@@ -207,17 +207,18 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 /*=========================================================================*/
+.colorlib-testimonials {
+    height: 300px;
+}
 
-
-.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
-    padding-top: 4em;
-    padding-bottom: 4em;
+.colorlib-experience, .colorlib-skills, .colorlib-work, .colorlib-about, .colorlib-testimonials, .colorlib-contact {
+    padding-top: 2em;
     clear: both;
     width: 100%;
     display: block;
 }
 @media screen and (max-width: 768px){
-.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-testimonials, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
     padding-bottom: 0;
     padding-top: 2em;
 }
@@ -308,7 +309,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .colorlib-heading {
     font-size: 18px;
-    margin-bottom: 4em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -392,7 +392,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .colorlib-heading {
     font-size: 18px;
-    margin-bottom: 4em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -403,11 +402,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-bottom: 30px;
 }
-
-
-
-
-
 
 .timeline-centered .timeline-entry {
     position: relative;
@@ -438,10 +432,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 20px;
     bottom: 20px;
     margin-left: 29px;
-}
-.timeline-centered:before, .timeline-centered:after {
-    content: " ";
-    display: table;
+    height: -webkit-fill-available;
 }
 .timeline-centered:before, .timeline-centered:after {
     content: " ";
@@ -485,17 +476,6 @@ p {
 
 .timeline-centered:after {
     clear: both;
-}
-.timeline-centered:before, .timeline-centered:after {
-    content: " ";
-    display: table;
-}
-.timeline-centered:after {
-    clear: both;
-}
-.timeline-centered:before, .timeline-centered:after {
-    content: " ";
-    display: table;
 }
 
 .colorlib-narrow-content {
@@ -558,7 +538,7 @@ a {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     width: 30px;
     height: 2px;
     color: #000;
@@ -573,7 +553,7 @@ a {
     float: left;
     width: 300px;
     position: fixed;
-    overflow-y: scroll;
+    overflow-y: hidden;
     z-index: 1001;
     background: #f2f3f7;
     -webkit-transition: 0.5s;
@@ -605,7 +585,7 @@ a {
     border-radius: 50%;
 }
 .author-img {
-    background-image: url("https://res.cloudinary.com/charlene04/image/upload/v1567491197/B67I7267-Edit_dmu62i.jpg");
+    background-image: url("../IMG/fotor_1624391692920-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -662,7 +642,7 @@ a {
     padding: 0;
 }
 #colorlib-aside #colorlib-main-menu ul li {
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
     padding: 0;
     list-style: none;
     font-size: 12px;
@@ -671,7 +651,7 @@ a {
     letter-spacing: 1px;
 }
 #navbar2 ul li {
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
     padding: 0;
     list-style: none;
     font-size: 12px;
@@ -689,30 +669,24 @@ a {
 }
 
 .colorlib-footer {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
-    width: 100%;
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 20px;
 }
 .colorlib-footer ul {
     padding: 0;
     margin: 0;
 }
 .colorlib-footer ul li {
-    padding: 0;
+    padding: 0 10px;
     margin: 0;
     display: inline;
     list-style: none;
 }
-@media screen and (max-width: 768px){
-.colorlib-footer {
-    position: relative;
-    bottom: 0;
-}
-}
-
 
 /*===========================CONTACT==============================*/
 .colorlib-narrow-content {
@@ -840,4 +814,16 @@ section#aside{
 
 i.fa.fa-align-justify.ml-3::before{
     color: white;
+}
+
+
+
+/*======================CAROUSEL================================*/
+.carousel {
+    width: 100%;
+    margin: 0 15px;
+}
+
+.carousel-item {
+    padding: 0 40px;
 }
